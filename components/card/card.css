@@ -1,0 +1,82 @@
+.cards {
+    max-width: 90vw;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top {
+    height: 70px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.more {
+    color: red;
+}
+.movie {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.movie-poster img {
+    height: 300px;
+    width: 250px;
+}
+.movie-item {
+    height: auto;
+    max-width: 250px;
+    margin-bottom: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.movie-country-date {
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    margin-top: 10px;
+}
+.movie-country-date .country {
+    margin-right: 5px;
+}
+.movie-item h4 {
+    margin-top: 10px;
+}
+.movie-item .rating {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    font-weight: 200;
+}
+.movie-item .imdb img {
+    height: 20px;
+    max-width: auto;
+    margin-right: 5px;
+}
+.movie-item .imdb {
+    display: flex;
+    flex-direction: row;
+}
+.movie-item .rotten {
+    display: flex;
+    flex-direction: row;
+}
+.movie-item .rotten img {
+    height: 20px;
+    max-width: auto;
+    margin-right: 5px;
+}
+.movie-item .genre {
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    margin-top: 10px;
+}
