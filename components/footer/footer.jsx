@@ -32,7 +32,7 @@ function Footer() {
                     }}
                 />
             </div>
-            <div className="text">
+            <div className="texts">
                 <h3>Conditions Of Use</h3>
                 <h3>Privacy & Policy</h3>
                 <h3>Press Room</h3>
