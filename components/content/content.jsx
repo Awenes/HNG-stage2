@@ -56,7 +56,7 @@ function Content({title, poster_path, vote_average, release_date, id}) {
                 <h4 data-testid: movie-title>{title}</h4>
                 <div className="rating">
                     <div className="imdb">
-                        <img src="imdb.jpg" alt="imdb" /> <div>{vote_average}</div>
+                        <img src="./imdb.jpg" alt="imdb" /> <div>{vote_average}</div>
                     </div>
                     <div className="rotten">
                             <img src="tomato.jpg" alt="imdb" /> <div>{vote_average}</div>
