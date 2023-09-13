@@ -52,7 +52,7 @@ function Heading() {
                         <img src="imdb.jpg" alt="imdb" /> 95/100
                     </div>
                     <div className="rotten">
-                        <img src="tomato.jpg" alt="imdb" /> 97%
+                        <img src="components/heading/tomato.jpg" alt="imdb" /> 97%
                     </div>
                 </div>
                 <button className="movie-trailer"><FaPlay /> &nbsp; Watch Trailer</button>
